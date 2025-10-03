@@ -20,8 +20,13 @@ export const FormInput: React.FC<Props> = ({ name, label, required, className, .
     watch,
     setValue,
   } = useFormContext();
+  const [mounted, setMounted] = React.useState(false);
 
-  const value = watch(name);
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const value = mounted ? watch(name) : '';
   const errorText = errors[name]?.message as string;
 
   const onClickClear = () => {
