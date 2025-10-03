@@ -1,14 +1,14 @@
 # Firepie 🍕  
 
-[![Next.js](https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white&style=for-the-badge)](https://nextjs.org/)  
-[![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge)](https://reactjs.org/)  
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)](https://www.typescriptlang.org/)  
-[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge)](https://tailwindcss.com/)  
-[![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-000000?style=for-the-badge)](https://ui.shadcn.dev/)  
-[![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)](https://www.prisma.io/)  
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white&style=for-the-badge)](https://www.postgresql.org/)  
-[![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white&style=for-the-badge)](https://stripe.com/)  
-[![NextAuth](https://img.shields.io/badge/NextAuth.js-000?style=for-the-badge)](https://next-auth.js.org/)  
+[![Next.js](https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white&style=for-the-badge)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge)](https://tailwindcss.com/)
+[![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-000000?style=for-the-badge)](https://ui.shadcn.dev/)
+[![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)](https://www.prisma.io/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white&style=for-the-badge)](https://www.postgresql.org/)
+[![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white&style=for-the-badge)](https://stripe.com/)
+[![NextAuth](https://img.shields.io/badge/NextAuth.js-000?style=for-the-badge)](https://next-auth.js.org/)
 [![Resend](https://img.shields.io/badge/Resend-FF6F61?style=for-the-badge)](https://resend.com/)  
 
 ---
@@ -113,7 +113,7 @@ Open 👉 http://localhost:3000
 
 ## 📸 Screenshots  
 
-![Preview](https://raw.githubusercontent.com/yevheniiorhanistyi/Firepie/e0e7f912935eb8b5f351325f50a7c0804231ab2a/public/images/preview.png)
+![Preview](https://github.com/yevheniiorhanistyi/Firepie/blob/main/public/images/preview.png?raw=true)
 
 ---
 
