@@ -1,6 +1,6 @@
 import { categories, _ingredients, products } from './constants';
 import { prisma } from './prisma-client';
-import { hashSync } from 'bcrypt';
+import { hashSync } from 'bcryptjs';
 
 async function up() {
   await prisma.user.createMany({
