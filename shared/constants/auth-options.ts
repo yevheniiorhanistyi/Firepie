@@ -4,7 +4,7 @@ import GitHubProvider from "next-auth/providers/github";
 import GoogleProvider from 'next-auth/providers/google';
 
 import { prisma } from '@/prisma/prisma-client';
-import { compare, hash } from 'bcrypt';
+import { compare, hash } from 'bcryptjs';
 
 export const authOptions: AuthOptions = {
   providers: [

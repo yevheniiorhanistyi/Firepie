@@ -2,7 +2,7 @@
 
 import { prisma } from '@/prisma/prisma-client';
 import { Prisma } from '@prisma/client';
-import { hash } from 'bcrypt';
+import { hash } from 'bcryptjs';
 import { sendEmail } from '@/shared/lib';
 import { VerificationUserTemplate } from '@/shared/components/common';
 
