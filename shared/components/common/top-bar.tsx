@@ -26,13 +26,13 @@ export const TopBar: React.FC<Props> = ({ categories, className }) => {
       'sticky top-0 bg-white/70 backdrop-blur-lg px-4 py-3 shadow-lg shadow-black/3 z-10',
       className
     )}>
-      <Container className="flex items-center justify-between flex-wrap gap-4 lg:gap-0">
+      <Container className="flex items-center justify-between gap-12">
         <Categories items={categories} />
-        <div className='flex items-center gap-2 ml-auto w-full md:w-auto justify-between'>
+        <div className='flex items-center ml-auto'>
           <div className='lg:hidden'>
             <Sheet>
-              <SheetTrigger className='cursor-pointer bg-gray-50 p-4 rounded-2xl'>
-                <SlidersHorizontal size={20} />
+              <SheetTrigger className='w-11 h-11 flex items-center justify-center cursor-pointer bg-gray-50 p-2 rounded-xl mb-2'>
+                <SlidersHorizontal />
               </SheetTrigger>
               <SheetContent side='left' className='p-4 z-100 overflow-y-auto'>
                 <SheetTitle className="sr-only">Filters</SheetTitle>
@@ -41,7 +41,9 @@ export const TopBar: React.FC<Props> = ({ categories, className }) => {
               </SheetContent>
             </Sheet>
           </div>
-          <SortPopup />
+          <div className='hidden lg:block'>
+            <SortPopup />
+          </div>
         </div>
       </Container>
     </div>

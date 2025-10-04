@@ -20,7 +20,7 @@ export const Categories: React.FC<Props> = ({ items, className }) => {
           <Skeleton className='h-13 rounded-2xl' />
         ) : (
           <div className={cn('overflow-x-auto w-full max-w-[483px]', className)}>
-            <div className='inline-flex gap-1 bg-white md:bg-gray-50 p-1 rounded-2xl mb-2 md:mb-0'>
+            <div className='inline-flex gap-1 bg-transparent md:bg-gray-50 p-1 rounded-2xl mb-2 md:mb-0'>
               {
                 items.map(({ name, id }) => (
                   <a className={cn('flex items-center font-bold h-11 rounded-2xl px-5 cursor-pointer hover:text-primary transition-colors bg-gray-50',
