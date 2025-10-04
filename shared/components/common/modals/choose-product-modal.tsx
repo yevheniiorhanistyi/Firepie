@@ -33,7 +33,7 @@ export const ChooseProductModal: React.FC<Props> = ({ product, className }) => {
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogContent
         className={cn(
-          "w-full h-full min-h-screen rounded-none md:rounded-2xl md:min-h-0 md:h-auto md:max-w-[621px] lg:max-w-[924px] md:max-h-[95vh] bg-white overflow-y-auto overflow-x-hidden md:mx-auto p-0",
+          "w-full h-[100dvh] min-h-[100dvh] rounded-none md:rounded-2xl md:min-h-0 md:h-auto md:max-w-[621px] lg:max-w-[924px] md:max-h-[95vh] bg-white overflow-y-auto overflow-x-hidden md:mx-auto p-0",
           className,
         )}
       >
