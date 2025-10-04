@@ -45,9 +45,9 @@ export const AuthModal: React.FC<Props> = ({ open, onClose }) => {
 
   return (
     <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="my-0 mx-1 w-full max-w-[350px] md:max-w-[450px] p-0">
-        <ScrollArea className="max-h-[85vh]">
-          <div className='flex flex-col gap-4 relative inset-0 p-8 md:p-10'>
+      <DialogContent className="my-0 w-full h-full rounded-none sm:rounded-2xl sm:h-auto sm:max-w-[450px] p-0">
+        <ScrollArea className="h-[100dvh] sm:h-auto sm:max-h-[90dvh]">
+          <div className="flex flex-col gap-4 justify-center min-h-[100dvh] sm:min-h-0 p-8 md:p-10">
             {type === 'login' ? (
               <LoginForm onClose={handleClose} setSubmitting={setSubmitting} />
             ) : (
