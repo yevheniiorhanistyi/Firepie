@@ -40,8 +40,8 @@ export const CartDrawer: React.FC<React.PropsWithChildren> = ({ children }) => {
     <Sheet>
       <SheetTrigger asChild>{children}</SheetTrigger>
       <SheetContent className="p-0 bg-muted">
-        <ScrollArea className="h-full">
-          <div className={cn(!totalAmount && 'justify-center', "flex flex-col min-h-svh")}>
+        <ScrollArea className="h-[100dvh]">
+          <div className={cn(!totalAmount && 'justify-center', "flex flex-col min-h-dvh")}>
             <SheetHeader className={cn(totalAmount <= 0 && 'hidden', 'px-4')}>
               <SheetTitle className='tex-base sm:text-2xl'>
                 You’ve got {items.length} {items.length === 1 ? 'item' : 'items'}
